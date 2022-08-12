@@ -145,24 +145,14 @@ input[name="r"]{
 
 
 
-@media handheld {
+@media (max-width: 479px) {
     .content{
-        width: 600px !important;
+        width: 400px !important;
     }
 
     .slider{
-        height: 200px !important;
+        height: 170px !important;
     }
 
 }
 
-@media screen and (max-width: 980px) {
-    .content{
-        width: 600px !important;
-    }
-
-    .slider{
-        height: 200px !important;
-    }
-
-}
