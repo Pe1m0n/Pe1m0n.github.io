@@ -145,7 +145,7 @@ input[name="r"]{
 
 
 
-@media handheld and (max-width: 980px) {
+@media handheld {
     .content{
         width: 600px !important;
     }
