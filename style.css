@@ -145,6 +145,17 @@ input[name="r"]{
 
 
 
+@media handheld and (max-width: 980px) {
+    .content{
+        width: 600px !important;
+    }
+
+    .slider{
+        height: 200px !important;
+    }
+
+}
+
 @media screen and (max-width: 980px) {
     .content{
         width: 600px !important;
